@@ -1,131 +1,34 @@
 <html>
-<head>
-<style>
-  h1 {
-    line-height:1.5;
-    display:inline;
-    font-size:22px;
-  }
-  h2 {
-    line-height:1.5;
-    display:inline;
-    font-size:22px;
-    color: rgb(150,150,150);
-  }
-  h3 {
-    line-height:1.5;
-    display:inline;
-    font-size:20px;
-  }
-  h4 {
-    display:inline;
-    color: rgb(135,206,250);
-  }
-  div.mainBox {
-    position:relative;
-    height:180px;
-    width:920px;
-    border-color: black;
-  }
-  div.pictureBox {
-    position:absolute;
-    height:180px;
-    width:120px;
-    background-color: white;
-  }
-  div.pic {
-    position:absolute;
-    width:80px;
-    height:80px;
-    border-radius:20px;
-    content:url(https://pbs.twimg.com/profile_images/472012299566194688/BGEH0BzU.jpeg);
-    margin-left: 20px;
-    margin-top: 10px;
-    padding:10px;
-  }
-  div.textBox {
-    position:absolute;
-    height:180px;
-    width:800px;
-    margin-top:0%;
-    margin-left:120px;
-    background-color:white;
-  }
-  div.title {
-    position:absolute;
-    margin-top:15px;
-    margin-left:0px;
-    width:700px;
-  }
-  img.check {
-    content:url(http://www.tweetbrander.com/wp-content/uploads/2013/03/twitter-verified-symbol.jpg);
-    margin-left:-5px;
-    height:18px;
-  }
-  img.dropArrow {
-    content:url(http://www.pngmart.com/files/3/Down-Arrow-PNG-Transparent-Image.png);
-    height:15px;
-    margin-left:95%;
-    margin-top:-20px;
-  }
-  div.textSect {
-    position:absolute;
-    margin-top:45px;
-  }
-  div.bottomSymbols {
-    position:absolute;
-  }
-  img.reply {
-    content:url(https://cdn2.iconfinder.com/data/icons/freecns-cumulus/16/519627-127_ArrowLeft-512.png);
-    height:20px;
-    margin-top:125px;
-    padding-right:8px;
-  }
-  img.retweet {
-    content:url(http://simpleicon.com/wp-content/uploads/retweet.png);
-    height:20px;
-    margin-top:125px;
-    margin-left:50px;
-    padding-right:8px;
-  }
-  img.like {
-    content:url(https://pbs.twimg.com/profile_images/590217295756144640/Ezn1xQBC_400x400.jpg);
-    height:20px;
-    margin-top:125px;
-    margin-left:50px;
-    padding-right:8px;
-  }
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+    <body>
+      <div class ="mainBox">
+      <div class="pictureBox">
+        <div class="pic">
+        </div>
+      </div>
 
-</style>
-</head>
-<body>
-
-<div class ="mainBox">
-<div class="pictureBox">
-  <div class="pic">
-  </div>
-</div>
-
-<div class="textBox">
-  <div class="title">
-      <h1>BlizzardCS</h1>
-      <img class="check"/>
-      <h2>@BlizzardCS - May 22</h2>
-      <img class="dropArrow"/>
-  </div>
-  <div class="textSect">
-      <h3>[</h3><h4>#Warcraft</h4><h3>] Some realms may recieve a toast about the Stranglethorn Fishing<br />
-      Extravaganza being live. The event is not live. Apologies, all.</h3>
-  </div>
-  <div class="bottomSymbols">
-      <img class="reply"/>
-      <h3>6</h3>
-      <img class="retweet"/>
-      <h3>10</h3>
-      <img class="like"/>
-      <h3>108</h3>
-  </div>
-</div>
-</div>
-</body>
+      <div class="textBox">
+        <div class="title">
+            <h1>BlizzardCS</h1>
+            <img class="check"/>
+            <h2>@BlizzardCS - May 22</h2>
+            <img class="dropArrow"/>
+        </div>
+        <div class="textSect">
+            <h3>[</h3><h4>#Warcraft</h4><h3>] Some realms may recieve a toast about the Stranglethorn Fishing<br />
+            Extravaganza being live. The event is not live. Apologies, all.</h3>
+        </div>
+        <div class="bottomSymbols">
+            <img class="reply"/>
+            <h3>6</h3>
+            <img class="retweet"/>
+            <h3>10</h3>
+            <img class="like"/>
+            <h3>108</h3>
+        </div>
+      </div>
+      </div>
+    </body>
 </html>
